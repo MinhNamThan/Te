@@ -1,5 +1,19 @@
-def proc_test
-    proc = Proc.new {return} proc.call
-    puts "Hello world"
+class A_t
+    def pu
+        p "pu"
     end
-proc_test
+    protected 
+    def pro
+        p "p ye"
+    end
+    private
+    def pri
+        p "r ye"
+    end
+    def self.pr
+        pro
+    end
+
+end
+a = A_t.new
+A_t.new.pri
