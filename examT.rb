@@ -16,7 +16,4 @@ class A_t
 
 end
 a = A_t.new
-<<<<<<< HEAD
-A_t.new.pro
-p "helllooooooooô abcíandfjsnd"
 
