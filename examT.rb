@@ -17,4 +17,4 @@ class A_t
 end
 a = A_t.new
 A_t.new.pri
-p "helllooooooooô"
+p "helllooooooooô abcíandfjsnd"
